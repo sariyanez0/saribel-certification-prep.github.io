@@ -1,4 +1,4 @@
-﻿body
+body
 {
     font-family:"Segoe UI",Tahoma,sans-serif;
     background-color:#fab66b;
@@ -9,4 +9,8 @@ p {
 .sale {
     font-weight:bold;
     background-color:aqua;
+}
+
+#sidenote{
+  background-color: #dbd9d9;
 }
