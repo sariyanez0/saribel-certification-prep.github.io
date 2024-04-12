@@ -63,3 +63,14 @@ a:visted{
 p{
   color:#8A2846;
 }
+
+.box{
+  border: #522E38 1px solid;
+  background-color: #FF7AA2; 
+  color: #522E38;
+  display: flex;
+  justify-content:space-evenly;
+  padding:10px;
+  margin: 20px;
+  border-radius: 5px;
+}
