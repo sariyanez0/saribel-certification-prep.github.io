@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -23,12 +23,26 @@
         <input type="email" name="email" id="email" />
         <p>How did you hear about us?</p>
         <select name="found" id="found">
+          
+          <optgroup label="Media">
             <option value="TV">TV</option>
-            <option value="Web" selected>Radio</option>
+            <option value="Radio">Radio</option>
             <option value="Other">Other</option>
+          </optgroup>
+          <optgroup label="Web">
             <option value="Google">Google</option>
             <option value="Bing">Bing</option>
+          </optgroup>
         </select>
+<p>What instruments are you most interested in learning?</p>
+      <input list="instruments" name="instrument" />
+      <datalist id="instruments">
+        <option value="guitar"></option>
+        <option value="piano"></option>
+        <option value="bass"></option>
+      </datalist>
+      
+      
         <p>Add comments below</p>
         <textarea name="comments" rows="6" cols="50" maxlength="255"></textarea>
         <button name="showimage" onclick="">Show image</button>
