@@ -82,3 +82,7 @@ h1{
 /* .flex{
   display:flex;
 } */
+
+#fake{
+  opacity: 0;
+}
