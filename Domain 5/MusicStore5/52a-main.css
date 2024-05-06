@@ -1,11 +1,13 @@
-﻿body {
+body {
     font-family:'Segoe UI', Tahoma, sans-serif;
     background-color: #f7d2aa
 }
 p {
     color: navy;
 }
-
+h1, h2, h3, h4, h5, h6{
+  font-family: Helvetica, Arial, sans-serif;
+}
 /* The background color is extending across the page,
     so I have commented it out for now. */
 figcaption {

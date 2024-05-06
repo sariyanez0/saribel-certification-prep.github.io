@@ -1,4 +1,4 @@
-﻿body {
+body {
     font-family:'Segoe UI', Tahoma, sans-serif;
     background-color: #f7d2aa
 }
@@ -13,6 +13,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 figcaption {
+  color:#013701;
     font-weight: bold;
     background-color: #AAEEFF;
     display:inline;
